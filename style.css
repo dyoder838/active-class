@@ -9,12 +9,24 @@ main {
   background: white;
 }
 
-section {
+/* this one applies changes to every section except the 2nd one 
+under main (not using */
+main section:not(:nth-child(2)) {
   padding: 5px;
   border: 5px black solid;
   margin: 5px;
   background: white;
 }
+
+/* this applies styling to everything but .jumbotron */
+/* main section:not(.jumbotron) {
+  padding: 5px;
+  border: 5px black solid;
+  margin: 5px;
+  background: white;
+} */
+
+
 
 /* button:focus { 
   color: black;
