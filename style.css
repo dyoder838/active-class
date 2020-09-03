@@ -16,10 +16,10 @@ section {
   background: white;
 }
 
-button:focus { 
+/* button:focus { 
   color: black;
   background: yellow;
-}
+} */
 /* button:hover { 
   color: black;
   background: yellow;
